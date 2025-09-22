@@ -11,14 +11,14 @@ class MenuPage extends StatefulWidget {
 
 class _MenuPageState extends State<MenuPage> {
   final List<Item> _menuItems = [
-    Item(name: 'Makanan 1', price: 5000),
+    Item(name: 'Makanan 1', price: 2000),
     Item(name: 'Makanan 2', price: 5000),
     Item(name: 'Makanan 3', price: 5000),
     Item(name: 'Minuman 1', price: 7000),
     Item(name: 'Minuman 2', price: 7000),
     Item(name: 'Minuman 3', price: 7000),
     Item(name: 'Minuman 4', price: 7000),
-    Item(name: 'Minuman 5', price: 7000),
+    Item(name: 'Minuman 5', price: 5000),
   ];
 
   void _reset() {
