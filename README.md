@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Deskripsi
 
-Aplikasi ini merupakan contoh implementasi fitur **Login**, **Register** dan **fitur penjualan** sederhana menggunakan Flutter. Data user disimpan secara lokal menggunakan Map dan status login menggunakan Shared Preferences. Di sini, fitur login dimansifkan agar pengguna dapat login dengan mudah, 
+Aplikasi ini merupakan contoh implementasi fitur **Login**, **Register** dan **fitur penjualan** sederhana menggunakan Flutter. Data user disimpan secara lokal menggunakan Map dan status login menggunakan Shared Preferences. Di sini, fitur login dimansifkan agar pengguna dapat mendaftar/registrasi dengan mudah, dimana hanya membutuhkan username, email password dan juga autentikasi password sebanyak dua kali. Selanjutnya pengguna berhasil mendaftar setelahnya dapat melanjutkan ke fitur penjualan, dimana pengguna dapat memilih dan mlihat harga serta total harga. 
 
 ## Fitur
 
