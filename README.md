@@ -40,27 +40,23 @@ Aplikasi ini merupakan contoh implementasi fitur **Login**, **Register** dan **f
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9de49516-90f6-4ab9-8854-2412f15d8b16" />
 
-
-Praktikum berhasil membuat halaman login interaktif dengan tampilan modern. Fitur utama seperti input email & password, tombol login, navigasi ke register, dan hide/show password sudah berjalan.
+Halaman login menampilkan input email dan password dengan opsi show/hide password, tombol Login, serta tautan untuk berpindah ke halaman Register.
+Tampilan ini sudah interaktif dan modern, serta mampu melakukan validasi input.
 
 ### Tampilan Saat Register
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/899d2065-bf30-418c-9857-5112f6abb825" />
 
-
-Register Page yang berhasil dibuat dalam praktikum Flutter dengan fungsi utama untuk pendaftaran akun baru. Pada halaman ini tersedia ikon pengguna sebagai identitas halaman, teks judul “Create Account”, tiga input field untuk Full Name, Email, dan Password dengan tambahan fitur tampil/sembunyikan password, tombol utama Tombol Register untuk menyimpan data akun, serta tautan “Sign In” untuk kembali ke halaman login.
+Halaman register digunakan untuk mendaftarkan akun baru.
+Terdapat field Full Name, Email, dan Password dengan ikon untuk menampilkan/menyembunyikan password.
+Tombol Register berfungsi untuk menyimpan data user, dan terdapat tautan “Sign In” untuk kembali ke halaman login.
 
 ### Tampilan Jika Login Berhasil
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d6ad4edb-0619-44ab-9aa0-a51b1b4b123c" />
 
 
-Praktikum ini menampilkan hasil saat pengguna berhasil melakukan registrasi pada aplikasi Flutter. Setelah mengisi data Full Name, Email, dan Password dengan benar, sistem menampilkan dialog konfirmasi (AlertDialog) dengan judul “Info” dan pesan “Registrasi berhasil, silakan login”. Dialog ini menjadi feedback kepada pengguna bahwa akun baru sudah tersimpan dan mereka dapat melanjutkan ke proses login.
-
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b2e2fedf-210f-4a74-86ac-6ca4c187034d" />
-
-
-Pada Ganmbar diatas Usera Berhasil Melakukan Login tnapa adanya eror, dengan tampilan "Selamat datang Rafli"
 
 
 ## Kesimpulan
