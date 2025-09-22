@@ -67,8 +67,8 @@ class _RegisterPageState extends State<RegisterPage> {
           child: Container(
             padding: EdgeInsets.all(24),
             margin: EdgeInsets.symmetric(horizontal: 24),
-            decoration: BoxDecoration(
-              color: Colors.blue.shade50,
+           decoration: BoxDecoration(
+              color: Colors.green, // Match the register button color
               borderRadius: BorderRadius.circular(12),
               border: Border.all(color: Colors.black26),
             ),
@@ -79,13 +79,24 @@ class _RegisterPageState extends State<RegisterPage> {
                   tag: 'appIcon',
                   child: CircleAvatar(
                     radius: 40,
-                    backgroundColor: Colors.blue.shade200,
-                    child: Icon(Icons.person_add_alt_1, size: 40, color: Colors.white),
+                    backgroundColor: Colors.blue.shade400, // More vibrant blue
+                    child: Icon(
+                      Icons.person_add_alt_1,
+                      size: 40,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
                 SizedBox(height: 20),
-                Text("Create Account", style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-                Text("Join us today!", style: TextStyle(fontSize: 16, color: Colors.black54)),
+                 Text(
+                  "Create Account",
+                  style: TextStyle(
+                    fontSize: 24,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.blue.shade900,
+                  ),
+                ),
+                Text("Join us today!", style: TextStyle(fontSize: 16, color: Colors.blueGrey)),
                 SizedBox(height: 20),
                 TextField(
                   controller: _fullNameController,
@@ -121,15 +132,14 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                   ),
                 ),
-                SizedBox(height: 20),
-                ElevatedButton(
+               ElevatedButton(
                   onPressed: _register,
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
-                    backgroundColor: Colors.blue.shade800,
-                    foregroundColor: Colors.white,
+                    backgroundColor: Colors.green, // Changed to green
+                    foregroundColor: Colors.white, // White text
                   ),
-                  child: Text("Tombol Register"),
+                  child: Text("Register"),
                 ),
                 SizedBox(height: 12),
                 Row(

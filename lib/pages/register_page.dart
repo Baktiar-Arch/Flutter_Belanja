@@ -57,7 +57,7 @@ class _RegisterPageState extends State<RegisterPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Icon(Icons.shopping_bag, size: 50, color: Colors.blue),
+              const Icon(Icons.shopping_bag, size: 50, color: Color.fromARGB(255, 23, 83, 132)),
               const SizedBox(height: 8),
               const Text('Create Account', style: TextStyle(fontSize: 18)),
               const SizedBox(height: 16),
