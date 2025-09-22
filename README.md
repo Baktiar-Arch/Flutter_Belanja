@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Deskripsi
 
-Aplikasi ini merupakan contoh implementasi fitur **Login** dan **Register** sederhana menggunakan Flutter. Data user disimpan secara lokal menggunakan Map dan status login menggunakan Shared Preferences.
+Aplikasi ini merupakan contoh implementasi fitur **Login**, **Register** dan **fitur penjualan** sederhana menggunakan Flutter. Data user disimpan secara lokal menggunakan Map dan status login menggunakan Shared Preferences. Di sini, fitur login dimansifkan agar pengguna dapat login dengan mudah, 
 
 ## Fitur
 
