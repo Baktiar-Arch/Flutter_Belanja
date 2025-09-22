@@ -1,4 +1,4 @@
-# flutter_register
+# flutter_register_Belanja
 
 A new Flutter project.
 
@@ -52,26 +52,16 @@ Register Page yang berhasil dibuat dalam praktikum Flutter dengan fungsi utama u
 
 ### Tampilan Jika Login Berhasil
 
-<img width="497" height="1014" alt="image" src="https://github.com/user-attachments/assets/75ed71f5-4d90-4465-9ef6-baee5ba23bb0" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d6ad4edb-0619-44ab-9aa0-a51b1b4b123c" />
+
 
 Praktikum ini menampilkan hasil saat pengguna berhasil melakukan registrasi pada aplikasi Flutter. Setelah mengisi data Full Name, Email, dan Password dengan benar, sistem menampilkan dialog konfirmasi (AlertDialog) dengan judul “Info” dan pesan “Registrasi berhasil, silakan login”. Dialog ini menjadi feedback kepada pengguna bahwa akun baru sudah tersimpan dan mereka dapat melanjutkan ke proses login.
 
-<img width="505" height="1030" alt="image" src="https://github.com/user-attachments/assets/2eea77bf-354e-4307-9e94-701719ef1006" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b2e2fedf-210f-4a74-86ac-6ca4c187034d" />
+
 
 Pada Ganmbar diatas Usera Berhasil Melakukan Login tnapa adanya eror, dengan tampilan "Selamat datang Rafli"
 
-### Tampilan Jika Pengisian Tidak Sesuai
-### Email/Gmail Tidak @
-
-<img width="507" height="1039" alt="image" src="https://github.com/user-attachments/assets/cb6f668d-55df-492d-8ea4-a91965dbaef1" />
-
-Pada Hasil ini User mencoba melakukan registrasi namun input email tidak sesuai format yang benar. Sistem menampilkan sebuah AlertDialog dengan judul “Info” dan pesan “Email tidak valid” sebagai bentuk validasi input. Pesan ini muncul karena email yang dimasukkan tidak mengandung karakter atau struktur yang sesuai standar (misalnya tidak ada tanda @).
-
-### Password
-
-<img width="505" height="1012" alt="image" src="https://github.com/user-attachments/assets/fe62c689-02fc-4753-870d-318ba338d41f" />
-
-pada hasil Berikut ini User Mencoba Mendaftar, Namun Gagal dikarenakan Password minimal  harus memiliki 6 karakter, maka dari itu muncullah info seperti yang ada pada gambarr "password minimal 6 karakter
 
 ## Kesimpulan
 Dari praktikum pembuatan Aplikasi Login dan Register ini dapat disimpulkan bahwa aplikasi berhasil dibangun dengan tampilan antarmuka (UI) yang interaktif serta fungsionalitas dasar autentikasi pengguna. Pengguna dapat melakukan registrasi akun baru dengan input nama, email, dan password, serta melakukan login menggunakan data yang sudah terdaftar. Fitur tambahan seperti validasi input (email valid dan password minimal 6 karakter), tampil/sembunyikan password, navigasi antar halaman, hingga feedback berupa dialog (AlertDialog) telah berjalan dengan baik. Dengan implementasi ini, praktikum memberikan pemahaman tentang penggunaan widget dasar Flutter (Scaffold, TextField, ElevatedButton, Navigator), pengelolaan state dengan TextEditingController, serta cara mengatur alur autentikasi sederhana sehingga aplikasi siap dikembangkan lebih lanjut, misalnya integrasi dengan database atau penyimpanan sesi login.
