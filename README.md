@@ -1,6 +1,10 @@
 # flutter_register_Belanja
 
-A new Flutter project.
+## Anggota Kelompok 7 : 
+1. Taruna Isra Elnasa (362458302073)
+2. Yogi Maulana (362458302116)
+3. Ahmad Bactiar Raflyansyah (362458302141)
+4. Midha Liudmila Ilbathuly (362458302079)
 
 ## Deskripsi
 
@@ -8,18 +12,15 @@ Aplikasi ini merupakan contoh implementasi fitur **Login**, **Register** dan **f
 
 ## Fitur
 
-- **Login**: Validasi email dan password, menyimpan status login.
-- **Register**: Menambah user baru ke data lokal.
-- **Home**: Menampilkan nama user yang sedang login.
-- **Logout**: Menghapus status login dan kembali ke halaman login.
-
-## Struktur Folder
-
-- `lib/main.dart` : Entry point aplikasi.
-- `lib/login_page.dart` : Halaman login.
-- `lib/register_page.dart` : Halaman registrasi.
-- `lib/home_page.dart` : Halaman utama setelah login.
-- `lib/data/user_data.dart` : Data user lokal.
+Register untuk pengguna dapat membuat akun baru dengan nama, email, dan password.
+Login untuk autentikasi sederhana menggunakan data yang disimpan lokal.
+Show/Hide Password untuk memudahkan pengguna dalam mengisi password.
+Stats Login untuk disimpan menggunakan Shared Preferences.
+Haaman Menu untuk menampilkan daftar makanan/minuman dengan harga.
+Tambah/Kurangi Pesanan untuk menggunakan tombol + dan -.
+Ringkasan Transaksi untuk menampilkan item yang dipilih, jumlah, subtotal, dan total belanja.
+Reset Pesanan untuk menghapus semua pilihan menu yang sudah dimasukkan.
+Logout untuk kembali ke halaman login.
 
 ## Cara Menjalankan
 
@@ -55,10 +56,14 @@ Tombol Register berfungsi untuk menyimpan data user, dan terdapat tautan “Sign
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d6ad4edb-0619-44ab-9aa0-a51b1b4b123c" />
 
+halaman Menu setelah login berhasil. Pada halaman ini terdapat daftar makanan dan minuman beserta harga masing-masing. Di sisi kanan setiap item tersedia tombol + dan - untuk menambah atau mengurangi jumlah pesanan. Di bagian bawah ada tombol Transaction untuk melanjutkan ke proses transaksi dan tombol Reset untuk menghapus semua pesanan yang sudah dipilih.
+
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b2e2fedf-210f-4a74-86ac-6ca4c187034d" />
 
+halaman Ringkasan Transaksi yang muncul setelah pengguna menekan tombol Transaction. Di sini ditampilkan daftar item pesanan lengkap dengan jumlah, harga satuan, subtotal, dan perhitungan total keseluruhan. Contoh yang terlihat adalah pemesanan dua jenis makanan dengan total Rp. 15.000.
 
 ## Kesimpulan
-Dari praktikum pembuatan Aplikasi Login dan Register ini dapat disimpulkan bahwa aplikasi berhasil dibangun dengan tampilan antarmuka (UI) yang interaktif serta fungsionalitas dasar autentikasi pengguna. Pengguna dapat melakukan registrasi akun baru dengan input nama, email, dan password, serta melakukan login menggunakan data yang sudah terdaftar. Fitur tambahan seperti validasi input (email valid dan password minimal 6 karakter), tampil/sembunyikan password, navigasi antar halaman, hingga feedback berupa dialog (AlertDialog) telah berjalan dengan baik. Dengan implementasi ini, praktikum memberikan pemahaman tentang penggunaan widget dasar Flutter (Scaffold, TextField, ElevatedButton, Navigator), pengelolaan state dengan TextEditingController, serta cara mengatur alur autentikasi sederhana sehingga aplikasi siap dikembangkan lebih lanjut, misalnya integrasi dengan database atau penyimpanan sesi login.
+
+Aplikasi Flutter_Belanja dapat disimpulkan mampu menjalankan fungsi utama dengan baik, yaitu menyediakan proses autentikasi berupa registrasi dan login, serta fitur pemesanan sederhana yang menampilkan daftar menu makanan dan minuman, memungkinkan pengguna menambah atau mengurangi jumlah pesanan, dan menampilkan ringkasan transaksi lengkap dengan subtotal serta total harga. Dengan demikian, aplikasi ini berhasil memenuhi tujuan praktikum sebagai implementasi dasar sistem belanja berbasis Flutter yang dapat dikembangkan lebih lanjut untuk kebutuhan nyata.
 
