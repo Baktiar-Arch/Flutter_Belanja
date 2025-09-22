@@ -38,13 +38,15 @@ Aplikasi ini merupakan contoh implementasi fitur **Login**, **Register** dan **f
 ## Hasil Praktikum
 ### Tampilan saat login
 
-<img width="505" height="1020" alt="image" src="https://github.com/user-attachments/assets/f9359bb6-09a6-47b7-af68-6fe498946ef1" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/9de49516-90f6-4ab9-8854-2412f15d8b16" />
+
 
 Praktikum berhasil membuat halaman login interaktif dengan tampilan modern. Fitur utama seperti input email & password, tombol login, navigasi ke register, dan hide/show password sudah berjalan.
 
 ### Tampilan Saat Register
 
-<img width="504" height="1024" alt="image" src="https://github.com/user-attachments/assets/9ae72c2f-f38d-4d08-9764-3de233cf07db" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/899d2065-bf30-418c-9857-5112f6abb825" />
+
 
 Register Page yang berhasil dibuat dalam praktikum Flutter dengan fungsi utama untuk pendaftaran akun baru. Pada halaman ini tersedia ikon pengguna sebagai identitas halaman, teks judul “Create Account”, tiga input field untuk Full Name, Email, dan Password dengan tambahan fitur tampil/sembunyikan password, tombol utama Tombol Register untuk menyimpan data akun, serta tautan “Sign In” untuk kembali ke halaman login.
 
